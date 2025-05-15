@@ -1,5 +1,5 @@
 {
-  "originHash" : "13063cae9228844f2e91ff5a2d4db22e29efc9e124f4b712c77217677172c92e",
+  "originHash" : "a6915435d8112e606d9ca8298cd82889fcc0fe1db02a1580b0ce82b92ff074a4",
   "pins" : [
     {
       "identity" : "alamofire",
@@ -15,8 +15,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/OneSignal/OneSignal-XCFramework",
       "state" : {
-        "revision" : "e976fd14ed895fe663710086ed5c33a4cad1bb66",
-        "version" : "5.2.11"
+        "revision" : "a7df0fa1cb25ae2920b6ee01fe703fec50639256",
+        "version" : "5.2.10"
       }
     },
     {

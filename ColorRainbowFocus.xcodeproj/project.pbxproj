@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		134A6CD72DD601780077FF25 /* OneSignalFramework in Frameworks */ = {isa = PBXBuildFile; productRef = 134A6CD62DD601780077FF25 /* OneSignalFramework */; };
+		13006E8A2DD66F130069A57E /* OneSignalFramework in Frameworks */ = {isa = PBXBuildFile; productRef = 13006E892DD66F130069A57E /* OneSignalFramework */; };
 		134A6CDA2DD601830077FF25 /* Swifter in Frameworks */ = {isa = PBXBuildFile; productRef = 134A6CD92DD601830077FF25 /* Swifter */; };
 		134A6CDD2DD601A80077FF25 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 134A6CDC2DD601A80077FF25 /* Alamofire */; };
 		134A6CE02DD601C40077FF25 /* AffiseAttributionLib in Frameworks */ = {isa = PBXBuildFile; productRef = 134A6CDF2DD601C40077FF25 /* AffiseAttributionLib */; };
@@ -51,7 +51,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				134A6CDD2DD601A80077FF25 /* Alamofire in Frameworks */,
-				134A6CD72DD601780077FF25 /* OneSignalFramework in Frameworks */,
 				134A6CE62DD601C40077FF25 /* AffiseModuleLink in Frameworks */,
 				134A6CE82DD601C40077FF25 /* AffiseModulePersistent in Frameworks */,
 				134A6CE02DD601C40077FF25 /* AffiseAttributionLib in Frameworks */,
@@ -60,6 +59,7 @@
 				134A6CEA2DD601C40077FF25 /* AffiseModuleStatus in Frameworks */,
 				134A6CEC2DD601C40077FF25 /* AffiseModuleSubscription in Frameworks */,
 				134A6CDA2DD601830077FF25 /* Swifter in Frameworks */,
+				13006E8A2DD66F130069A57E /* OneSignalFramework in Frameworks */,
 				134A6CE42DD601C40077FF25 /* AffiseModuleAdvertising in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -103,7 +103,6 @@
 			);
 			name = ColorRainbowFocus;
 			packageProductDependencies = (
-				134A6CD62DD601780077FF25 /* OneSignalFramework */,
 				134A6CD92DD601830077FF25 /* Swifter */,
 				134A6CDC2DD601A80077FF25 /* Alamofire */,
 				134A6CDF2DD601C40077FF25 /* AffiseAttributionLib */,
@@ -114,6 +113,7 @@
 				134A6CE92DD601C40077FF25 /* AffiseModuleStatus */,
 				134A6CEB2DD601C40077FF25 /* AffiseModuleSubscription */,
 				134A6CED2DD601C40077FF25 /* AffiseSKAdNetwork */,
+				13006E892DD66F130069A57E /* OneSignalFramework */,
 			);
 			productName = ColorRainbowFocus;
 			productReference = A5F0F76D2DD363B500406511 /* ColorRainbowFocus.app */;
@@ -144,10 +144,10 @@
 			mainGroup = A5F0F7642DD363B500406511;
 			minimizedProjectReferenceProxies = 1;
 			packageReferences = (
-				134A6CD52DD601780077FF25 /* XCRemoteSwiftPackageReference "OneSignal-XCFramework" */,
 				134A6CD82DD601830077FF25 /* XCRemoteSwiftPackageReference "swifter" */,
 				134A6CDB2DD601A80077FF25 /* XCRemoteSwiftPackageReference "Alamofire" */,
 				134A6CDE2DD601C40077FF25 /* XCRemoteSwiftPackageReference "sdk-ios" */,
+				13006E882DD66F130069A57E /* XCRemoteSwiftPackageReference "OneSignal-XCFramework" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = A5F0F76E2DD363B500406511 /* Products */;
@@ -403,12 +403,12 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		134A6CD52DD601780077FF25 /* XCRemoteSwiftPackageReference "OneSignal-XCFramework" */ = {
+		13006E882DD66F130069A57E /* XCRemoteSwiftPackageReference "OneSignal-XCFramework" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/OneSignal/OneSignal-XCFramework";
 			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 5.2.11;
+				kind = exactVersion;
+				version = 5.2.10;
 			};
 		};
 		134A6CD82DD601830077FF25 /* XCRemoteSwiftPackageReference "swifter" */ = {
@@ -438,9 +438,9 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		134A6CD62DD601780077FF25 /* OneSignalFramework */ = {
+		13006E892DD66F130069A57E /* OneSignalFramework */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 134A6CD52DD601780077FF25 /* XCRemoteSwiftPackageReference "OneSignal-XCFramework" */;
+			package = 13006E882DD66F130069A57E /* XCRemoteSwiftPackageReference "OneSignal-XCFramework" */;
 			productName = OneSignalFramework;
 		};
 		134A6CD92DD601830077FF25 /* Swifter */ = {
