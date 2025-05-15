@@ -6,6 +6,20 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		134A6CD72DD601780077FF25 /* OneSignalFramework in Frameworks */ = {isa = PBXBuildFile; productRef = 134A6CD62DD601780077FF25 /* OneSignalFramework */; };
+		134A6CDA2DD601830077FF25 /* Swifter in Frameworks */ = {isa = PBXBuildFile; productRef = 134A6CD92DD601830077FF25 /* Swifter */; };
+		134A6CDD2DD601A80077FF25 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 134A6CDC2DD601A80077FF25 /* Alamofire */; };
+		134A6CE02DD601C40077FF25 /* AffiseAttributionLib in Frameworks */ = {isa = PBXBuildFile; productRef = 134A6CDF2DD601C40077FF25 /* AffiseAttributionLib */; };
+		134A6CE22DD601C40077FF25 /* AffiseInternal in Frameworks */ = {isa = PBXBuildFile; productRef = 134A6CE12DD601C40077FF25 /* AffiseInternal */; };
+		134A6CE42DD601C40077FF25 /* AffiseModuleAdvertising in Frameworks */ = {isa = PBXBuildFile; productRef = 134A6CE32DD601C40077FF25 /* AffiseModuleAdvertising */; };
+		134A6CE62DD601C40077FF25 /* AffiseModuleLink in Frameworks */ = {isa = PBXBuildFile; productRef = 134A6CE52DD601C40077FF25 /* AffiseModuleLink */; };
+		134A6CE82DD601C40077FF25 /* AffiseModulePersistent in Frameworks */ = {isa = PBXBuildFile; productRef = 134A6CE72DD601C40077FF25 /* AffiseModulePersistent */; };
+		134A6CEA2DD601C40077FF25 /* AffiseModuleStatus in Frameworks */ = {isa = PBXBuildFile; productRef = 134A6CE92DD601C40077FF25 /* AffiseModuleStatus */; };
+		134A6CEC2DD601C40077FF25 /* AffiseModuleSubscription in Frameworks */ = {isa = PBXBuildFile; productRef = 134A6CEB2DD601C40077FF25 /* AffiseModuleSubscription */; };
+		134A6CEE2DD601C40077FF25 /* AffiseSKAdNetwork in Frameworks */ = {isa = PBXBuildFile; productRef = 134A6CED2DD601C40077FF25 /* AffiseSKAdNetwork */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		A5F0F76D2DD363B500406511 /* ColorRainbowFocus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ColorRainbowFocus.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -36,6 +50,17 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				134A6CDD2DD601A80077FF25 /* Alamofire in Frameworks */,
+				134A6CD72DD601780077FF25 /* OneSignalFramework in Frameworks */,
+				134A6CE62DD601C40077FF25 /* AffiseModuleLink in Frameworks */,
+				134A6CE82DD601C40077FF25 /* AffiseModulePersistent in Frameworks */,
+				134A6CE02DD601C40077FF25 /* AffiseAttributionLib in Frameworks */,
+				134A6CE22DD601C40077FF25 /* AffiseInternal in Frameworks */,
+				134A6CEE2DD601C40077FF25 /* AffiseSKAdNetwork in Frameworks */,
+				134A6CEA2DD601C40077FF25 /* AffiseModuleStatus in Frameworks */,
+				134A6CEC2DD601C40077FF25 /* AffiseModuleSubscription in Frameworks */,
+				134A6CDA2DD601830077FF25 /* Swifter in Frameworks */,
+				134A6CE42DD601C40077FF25 /* AffiseModuleAdvertising in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +103,17 @@
 			);
 			name = ColorRainbowFocus;
 			packageProductDependencies = (
+				134A6CD62DD601780077FF25 /* OneSignalFramework */,
+				134A6CD92DD601830077FF25 /* Swifter */,
+				134A6CDC2DD601A80077FF25 /* Alamofire */,
+				134A6CDF2DD601C40077FF25 /* AffiseAttributionLib */,
+				134A6CE12DD601C40077FF25 /* AffiseInternal */,
+				134A6CE32DD601C40077FF25 /* AffiseModuleAdvertising */,
+				134A6CE52DD601C40077FF25 /* AffiseModuleLink */,
+				134A6CE72DD601C40077FF25 /* AffiseModulePersistent */,
+				134A6CE92DD601C40077FF25 /* AffiseModuleStatus */,
+				134A6CEB2DD601C40077FF25 /* AffiseModuleSubscription */,
+				134A6CED2DD601C40077FF25 /* AffiseSKAdNetwork */,
 			);
 			productName = ColorRainbowFocus;
 			productReference = A5F0F76D2DD363B500406511 /* ColorRainbowFocus.app */;
@@ -107,6 +143,12 @@
 			);
 			mainGroup = A5F0F7642DD363B500406511;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				134A6CD52DD601780077FF25 /* XCRemoteSwiftPackageReference "OneSignal-XCFramework" */,
+				134A6CD82DD601830077FF25 /* XCRemoteSwiftPackageReference "swifter" */,
+				134A6CDB2DD601A80077FF25 /* XCRemoteSwiftPackageReference "Alamofire" */,
+				134A6CDE2DD601C40077FF25 /* XCRemoteSwiftPackageReference "sdk-ios" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = A5F0F76E2DD363B500406511 /* Products */;
 			projectDirPath = "";
@@ -269,6 +311,10 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ColorRainbowFocus/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "Color Rainbow Focus";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Camera access is requested solely to power the app’s features; we do not capture or store any camera data.";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Microphone access is requested exclusively to enable voice note recording; your recordings remain private and are neither transmitted nor stored.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "We use your photo library to save your favorite memories from the app.";
+				INFOPLIST_KEY_NSUserTrackingUsageDescription = "We use a tracking ID to gather anonymous usage data, helping us analyze how the app is used and optimize its performance.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -305,6 +351,10 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ColorRainbowFocus/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "Color Rainbow Focus";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Camera access is requested solely to power the app’s features; we do not capture or store any camera data.";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Microphone access is requested exclusively to enable voice note recording; your recordings remain private and are neither transmitted nor stored.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "We use your photo library to save your favorite memories from the app.";
+				INFOPLIST_KEY_NSUserTrackingUsageDescription = "We use a tracking ID to gather anonymous usage data, helping us analyze how the app is used and optimize its performance.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -351,6 +401,99 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		134A6CD52DD601780077FF25 /* XCRemoteSwiftPackageReference "OneSignal-XCFramework" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/OneSignal/OneSignal-XCFramework";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.2.11;
+			};
+		};
+		134A6CD82DD601830077FF25 /* XCRemoteSwiftPackageReference "swifter" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/httpswift/swifter";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.5.0;
+			};
+		};
+		134A6CDB2DD601A80077FF25 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.10.2;
+			};
+		};
+		134A6CDE2DD601C40077FF25 /* XCRemoteSwiftPackageReference "sdk-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/affise/sdk-ios";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.6.49;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		134A6CD62DD601780077FF25 /* OneSignalFramework */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 134A6CD52DD601780077FF25 /* XCRemoteSwiftPackageReference "OneSignal-XCFramework" */;
+			productName = OneSignalFramework;
+		};
+		134A6CD92DD601830077FF25 /* Swifter */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 134A6CD82DD601830077FF25 /* XCRemoteSwiftPackageReference "swifter" */;
+			productName = Swifter;
+		};
+		134A6CDC2DD601A80077FF25 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 134A6CDB2DD601A80077FF25 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		134A6CDF2DD601C40077FF25 /* AffiseAttributionLib */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 134A6CDE2DD601C40077FF25 /* XCRemoteSwiftPackageReference "sdk-ios" */;
+			productName = AffiseAttributionLib;
+		};
+		134A6CE12DD601C40077FF25 /* AffiseInternal */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 134A6CDE2DD601C40077FF25 /* XCRemoteSwiftPackageReference "sdk-ios" */;
+			productName = AffiseInternal;
+		};
+		134A6CE32DD601C40077FF25 /* AffiseModuleAdvertising */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 134A6CDE2DD601C40077FF25 /* XCRemoteSwiftPackageReference "sdk-ios" */;
+			productName = AffiseModuleAdvertising;
+		};
+		134A6CE52DD601C40077FF25 /* AffiseModuleLink */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 134A6CDE2DD601C40077FF25 /* XCRemoteSwiftPackageReference "sdk-ios" */;
+			productName = AffiseModuleLink;
+		};
+		134A6CE72DD601C40077FF25 /* AffiseModulePersistent */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 134A6CDE2DD601C40077FF25 /* XCRemoteSwiftPackageReference "sdk-ios" */;
+			productName = AffiseModulePersistent;
+		};
+		134A6CE92DD601C40077FF25 /* AffiseModuleStatus */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 134A6CDE2DD601C40077FF25 /* XCRemoteSwiftPackageReference "sdk-ios" */;
+			productName = AffiseModuleStatus;
+		};
+		134A6CEB2DD601C40077FF25 /* AffiseModuleSubscription */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 134A6CDE2DD601C40077FF25 /* XCRemoteSwiftPackageReference "sdk-ios" */;
+			productName = AffiseModuleSubscription;
+		};
+		134A6CED2DD601C40077FF25 /* AffiseSKAdNetwork */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 134A6CDE2DD601C40077FF25 /* XCRemoteSwiftPackageReference "sdk-ios" */;
+			productName = AffiseSKAdNetwork;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = A5F0F7652DD363B500406511 /* Project object */;
 }
